@@ -9,15 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^5.3.1",
     "@headlessui/react": "^1.7.14",
     "@types/node": "^20.2.5",
     "@types/react": "^18.2.7",
     "@types/react-dom": "^18.2.4",
     "aos": "^3.0.0-beta.6",
     "aws-amplify": "^5.3.11",
+    "aws-crt": "^1.18.0",
+    "encoding": "^0.1.13",
+    "lucide-react": "^0.287.0",
     "next": "^13.5.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.47.0",
     "typescript": "^5.0.4"
   },
   "devDependencies": {

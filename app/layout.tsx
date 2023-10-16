@@ -5,6 +5,11 @@ import { Inter, Architects_Daughter } from 'next/font/google'
 import Header from '@/components/ui/header'
 import Banner from '@/components/banner'
 
+import { Amplify, Auth } from "aws-amplify";
+import awsExports from "../src/aws-exports";
+Amplify.configure({ ...awsExports, ssr: true });
+Auth.configure({ ...awsExports, ssr: true });
+
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
