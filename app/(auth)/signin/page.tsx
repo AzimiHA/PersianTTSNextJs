@@ -12,6 +12,8 @@ import Link from 'next/link'
 
 
 export default function SignIn() {
+  const router = useRouter();
+
   const [user, setUser] = React.useState({
     email: "",
     password: "",
@@ -19,7 +21,7 @@ export default function SignIn() {
 
   const [isLoading, setIsLoading] = React.useState(false);
 
-  const router = useRouter();
+  
 
   async function signIn() {
     setIsLoading(true);
@@ -35,6 +37,7 @@ export default function SignIn() {
       console.log("error signing in:", error);
     }
   }
+  
 
   return (
     <section className="relative">
