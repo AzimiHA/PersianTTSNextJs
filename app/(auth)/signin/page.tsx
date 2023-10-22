@@ -28,11 +28,11 @@ export default function SignIn() {
          username: user.email,
         password: user.password,
       });
-      console.log(auth);
+      router.refresh();
       router.push(`/dashboard`);
     } catch (error) {
       setIsLoading(false);
-      console.log("error signing up:", error);
+      console.log("error signing in:", error);
     }
   }
 
@@ -53,7 +53,7 @@ export default function SignIn() {
             className="space-y-6"
             onSubmit={(e) => {
               e.preventDefault();
-              console.log(user);
+              //console.log(user);
               signIn();
             }}
             >

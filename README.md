@@ -8,8 +8,8 @@ Use it for whatever you want, and be sure to reach us out on [Twitter](https://t
 
 Created and maintained with ❤️ by [Cruip.com](https://cruip.com).
 
-*Version 1.0.0 built with the Cruip CSS is available [here](https://github.com/cruip/open-react-template/releases/tag/1.0.0).*
-*Version 2.0.3 built with Tailwind CSS and React + Vite is available [here](https://github.com/cruip/open-react-template/releases/tag/2.0.3).*
+_Version 1.0.0 built with the Cruip CSS is available [here](https://github.com/cruip/open-react-template/releases/tag/1.0.0)._
+_Version 2.0.3 built with Tailwind CSS and React + Vite is available [here](https://github.com/cruip/open-react-template/releases/tag/2.0.3)._
 
 ## Live demo
 
@@ -64,8 +64,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
 ### Support notes
+
 This template has been developed with the App Router (`app`) and React Server Components. If you’re unfamiliar with these beta features, you can find more information about them on the Next.js beta documentation page. So, please note that any request dealing with React (e.g. extra features, customisations, et cetera) is to be considered out of the support scope.
 
 For more information about what support covers, please see our (FAQs)[https://cruip.com/faq/].
@@ -88,3 +88,13 @@ We're an Italian developer/designer duo creating high-quality design/code resour
 ## Stay in the loop
 
 If you would like to know when we release new resources, you can follow us on [Twitter](https://twitter.com/Cruip_com), or you can subscribe to our monthly [newsletter](https://cruip.com/#subscribe).
+
+## Stay in the loop
+
+These are all the very useful resources I used to create the project:
+
+- https://stackoverflow.com/questions/71343329/aws-api-gateway-and-authorizer-cors-error
+
+- https://dev.to/codebeast/how-to-protect-nextjs-13-app-routes-with-authentication-1bjh?source=YouTube&channel=AWS&ID=-kXK1_P4DXc&type=demo_2023&country=US&language=EN
+
+- https://stackoverflow.com/questions/66930900/how-to-upload-file-stored-in-memory
