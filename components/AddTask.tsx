@@ -12,7 +12,7 @@ function AddTask() {
   
   const [url, seturl] = useState('');
 
-  const defMessage = "حماس نماینده مردم فلسطین نیست"
+  const defMessage = "سلام حال شما خوبه"
 
   const [message, setMessage] = React.useState({
     message: defMessage,
@@ -22,12 +22,10 @@ function AddTask() {
   async function testaudio() {
 
     try {
-      //const user = await Auth.currentAuthenticatedUser();
       const idToken = (await Auth.currentSession()).getIdToken().getJwtToken();
       const headers = {
         'Authorization': `Bearer ${idToken}`,
       };
-      //var fetch_url = "https://o6uj2pzz27.execute-api.us-east-2.amazonaws.com/prod/audio2?question=\"حماس نماینده مردم فلسطین نیست\""
       var fetch_url = "https://o6uj2pzz27.execute-api.us-east-2.amazonaws.com/prod/audio2?question=\""
       fetch_url = fetch_url + message.message + "\""
       console.log(fetch_url)
