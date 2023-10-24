@@ -2,7 +2,7 @@
 
 This is a **React / Next.js Persian TTS App** I made in my spare time. 
 
-This is only the frontend, if you're interested in the backend repository, check it out here 👉 [(Coming Soon®)](https://github.com/AzimiHA/NextJSAppBackend)
+This is only the frontend, if you're interested in the backend repository, check it out here 👉 https://github.com/AzimiHA/NextJSAppBackend
 
 If you want to get in touch, be sure to reach out on [LinkedIn](https://www.linkedin.com/in/amir-r-azimi/)
 
